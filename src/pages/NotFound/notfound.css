@@ -1,0 +1,8 @@
+.bgimg{
+    width:100%;
+    background-image: url('../../assets/images/not_found_page.png');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
