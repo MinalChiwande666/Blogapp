@@ -36,7 +36,7 @@ const Login = () => {
    
         <div className='flex h-[100vh] items-center justify-center'>
             <div className='shadow-2xl flex flex-col'>
-                <h1 className='text-center text-3xl font-bold mt-3'>Register</h1>
+                <h1 className='text-center text-3xl font-bold mt-3'>Login</h1>
                 <form className='flex flex-col p-3' onSubmit={handleSubmit}>
                     <input
                         type="email"
@@ -60,7 +60,7 @@ const Login = () => {
                            
                         }}
                         required
-                        className='mt-3 p-3 sm:w-[100px] lg:w-[300px]'
+                        className='mt-3 p-3 bg-gray-100 rounded-lg sm:w-[100px] lg:w-[300px]'
                     />
                      {Error.email}
                     <input
@@ -74,7 +74,7 @@ const Login = () => {
                                 password:e?.target.value
                             })
                         }}
-                        className='mt-3 p-3 sm:w-[100px] lg:w-[300px]'
+                        className='mt-3 bg-gray-100 rounded-lg p-3 sm:w-[100px] lg:w-[300px]'
                     />
                    {Error.password}
                     <button className='mt-3 rounded-md text-white bg-green-900 p-3 sm:w-[100px] lg:w-[300px]' type="submit" >
